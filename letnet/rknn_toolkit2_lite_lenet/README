@@ -1,0 +1,12 @@
+1. [PC] 	  adb push rknn_toolkit2_lite_lenet /tmp/
+2. [TargetBoard]  cd /tmp/rknn_toolkit2_lite_lenet
+3. [TargetBoard]  python ./atk_lenet_demo.py
+
+-----TOP 5-----
+[5]: 0.9990234375
+[3]: 0.000701904296875
+[0 1 2 4 6 7 8 9]: 6.103515625e-05
+[0 1 2 4 6 7 8 9]: 6.103515625e-05
+[0 1 2 4 6 7 8 9]: 6.103515625e-05
+
+

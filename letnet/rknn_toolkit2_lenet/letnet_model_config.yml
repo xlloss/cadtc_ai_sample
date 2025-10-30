@@ -1,0 +1,13 @@
+models:
+    name: letnet_onnx_model
+    platform: onnx
+    model_file_path: /media/sample/letnet/rknn_toolkit2_lenet/letnet_model.onnx
+    quantize: false
+    configs:
+      quantized_dtype: w8a8
+      mean_values: [1.0]
+      std_values: [1.0]
+      quant_img_RGB2BGR: false
+      quantized_algorithm: normal
+      quantized_method: channel
+      optimization_level: 0
